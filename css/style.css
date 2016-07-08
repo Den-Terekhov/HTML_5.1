@@ -1,0 +1,218 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, 
+body {
+  height: 100%;
+  background-color: #eee;
+  font-family: "Helvetica Neue", Tahoma, sans-serif;
+}
+
+.header {
+  width: 100%;
+  display: inline-block;
+  font-size: 15px;
+  background-color: #074c89;
+}
+
+.top_main_menu {
+  float: right
+}
+
+.top_main_menu li {
+  float: left;
+  list-style-type: none;
+}
+
+.top_main_menu li a {
+  display: block;
+  height: 21px;
+  padding: 7px 15px;
+  text-decoration: none;
+  color: #60b5ed;
+}
+
+.top_main_menu li:nth-child(5) {
+  border-right: 1px solid #56a2dc;
+}
+
+.top_main_menu li a:hover {
+  background-color: #4eabda;
+  color: #fff;
+}
+
+.ola {
+  float: right;
+  margin-right: 20px;
+}
+
+.ola li {
+  float: left;
+  display: block;
+  height: 21px;
+  padding: 7px 15px;
+  color: #fff;
+  background: linear-gradient(to bottom, rgba(80,175,220,1) 0%, rgba(46,122,196,1) 100%);
+}
+
+.ola li a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #9ac1e4;
+}
+
+figcaption {
+  float: right;
+}
+
+.wrapper {
+  position: relative;
+  margin-top: -4px;
+  background: url(../img/Background_orig.jpg) no-repeat top center;
+  /*background-position: top left;*/
+  min-height: 100%;
+}
+
+.container {
+  width: 50%;
+  width: 560px;
+  height: 50%;
+  height: 613px;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.top_block {
+  width: 50%;
+  width: 560px;
+  height: 50%;
+  height: 60px;
+  padding: 12px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background-color: rgba(0, 0, 0, 0.63);
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+}
+
+.bottom_block {
+  width: 50%;
+  width: 560px;
+  height: 50%;
+  height: 550px;
+  position: absolute;
+  top: 63px; left: 0; bottom: 0; right: 0;
+  background-color: rgba(0, 0, 0, 0.63);
+}
+
+.vert_menu {
+  width: 276px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.OU {
+  height: 20px;
+  width: 23px;
+  margin: 0;
+  position: absolute;
+  top: 59px;
+  left: 128px;
+  color: #999;
+}
+
+.lines_before,
+.lines_after {
+  display: inline-block;
+  height: 0;
+  width: 45%;
+  margin: 30px 0;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #666;
+}
+
+.lines_after {
+  float: right;
+}
+
+.fields li {
+  list-style-type: none;
+  height: 52px;
+}
+
+li input {
+  height: 34px;
+  width: 100%;
+  padding-left: 19px;
+  background-color: #101010;
+  color: #fff;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-width: 0px;
+  border-bottom-width: 1px;
+  border-color: #4a4a4a;
+}
+
+li input:hover {
+  color: #fff;
+  background-color: #1b5288;
+  box-shadow: 0px 0px 6px 4px rgba(104,155,205,1);
+}
+
+:hover::-webkit-input-placeholder {color: #fff}
+:hover::-moz-placeholder          {color: #fff}
+:hover:-moz-placeholder           {color: #fff}
+:hover:-ms-input-placeholder      {color: #fff}
+
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
+.FB {
+  margin: 35px auto 0;
+} 
+
+.checkbox {
+  color: #ccc;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.submit {
+  display: block;
+  margin: 0 auto 20px;
+  text-align: center; 
+  padding: 10px 11px; 
+  border-radius: 4px; 
+  font: 16px;
+  font-weight: bold; 
+  color: #fff; 
+  background: linear-gradient(to bottom, rgba(80,174,219,1) 0%, rgba(46,122,196,1) 100%);
+  border: 0px; 
+  border-top: solid 2px #67c6e6;
+  border-left: solid 1px #60a6e1;
+  border-right: solid 1px #60a6e1;
+}
+
+.terms p {
+  color: #ccc;
+  text-align: center;
+  font-size: 13px;
+}
